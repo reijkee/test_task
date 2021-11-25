@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.appTabPanel {
+  display: flex;
+}
+
+.MRTabContainer,
+.MRTabContentContainer,
+.CommitsTabContainer,
+.CommitsTabContentContainer {
+  display: flex;
+}
+
+.userStatusGood {
+  border: solid 3px rgb(118, 194, 3);
+}
+
+.userStatusNormal {
+  border: solid 3px rgb(255, 208, 0);
+}
+
+.userStatusNotGood {
+  border: solid 3px rgba(255, 60, 0, 0.712);
+}
+
+.userStatusBad {
+  border: solid 3px rgb(0, 0, 0);
+}
+
+.MuiInputBase-root {
+  color: rgb(255, 255, 255) !important;
+  padding: 0 0 0 0 !important;
+}
+
+.MuiTreeItem-content {
+  display: flex !important;
+}
+
+.usersTabContent {
+  display: flex;
+  padding: 16px 16px;
+}
+
+.usersTabContainer {
+  display: flex;
+}
+
+.MuiTab-wrapper {
+  width: 100% !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  flex-direction: row !important;
+  justify-content: left !important;
+}
+
+.MuiAvatar-img {
+  margin: 8px;
+}
+
+.usersTabAvgContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.usersTabAvgItem {
+  padding: 8px;
+  border: 3px solid #3f51b5;
+  border-radius: 5px;
+  font-weight: 600;
+  margin: 16px;
+  width: 150px;
+  height: 150px;
+}
+
+.usersTabContentMapContainer {
+  padding: 32px;
+  width: 100%;
+}
+
+.usersTabContentContainer {
+  min-width: 166px;
+}
+
+.usersTabAddTeammateContainer {
+  margin: 15px;
+  padding: 15px;
+  border: solid 3px #3f51b5;
+  border-radius: 5px;
+  height: 250px;
+}
+
+.userStatusGoodFill {
+  background-color: rgba(118, 194, 3, 0.6);
+}
+
+.userStatusNormalFill {
+  background-color: rgba(255, 208, 0, 0.6);
+}
+
+.userStatusNotGoodFill {
+  background-color: rgba(255, 60, 0, 0.6);
+}
+
+.userStatusBadFill {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.active {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+}
+.CommitsTabContent div {
+  height: 600px;
+}
+
+.mergeRequestsTabPaginationUl {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.mergeRequestsTabPaginationUl li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 3px;
+  padding: 3px;
+  width: 15px;
+  height: 15px;
+}
+
+.mergeRequestsTabPaginationContainer {
+  display: flex;
+}
+.mergeRequestsTabContainer .mergeRequestsTabContent {
+  height: 680px;
+}
+
+.usersTabAddTeammateContent {
+  display: flex;
+  margin-top: 15px;
+}
+
+.AddTeammateContentContainer {
+  height: 190px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 17px;
+  width: 900px;
+}
+
+.usersTabAddTeammateArrow {
+  margin-top: 50px;
+}
+
+.CommitsTabPaginationUl {
+  margin: 0;
+  padding: 4px;
+}
+
+.CommitsTabPaginationUl li {
+  display: inline;
+}
+.CommitsTabPaginationArrow {
+  border: none !important;
+}
+
+.LogInButton .MuiButton-root {
+  /*margin-left: 370px;*/
+  color: rgba(225, 225, 225, 0.9);
+}
+.LogInButton {
+  display: flex;
+  margin: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.pageGap:hover {
+  background-color: brown;
+}
